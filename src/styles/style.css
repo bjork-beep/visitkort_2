@@ -19,4 +19,22 @@ img {
 }
 
 /* fonte */
+
+h1 {
+  font-family: "Poiret One";
+  color: var(--secondary);
+}
+
+h3 {
+  font-family: "Poiret One";
+  color: var(--secondary);
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+}
+
 /* basics */
