@@ -25,6 +25,10 @@ h1 {
   color: var(--secondary);
 }
 
+h2 {
+  font-family: "Roboto", sans-serif;
+}
+
 h3 {
   font-family: "Poiret One";
   color: var(--secondary);
