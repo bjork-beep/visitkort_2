@@ -23,6 +23,8 @@ img {
 h1 {
   font-family: "Poiret One";
   color: var(--secondary);
+  font-size: 5rem;
+  font-weight: 100;
 }
 
 h2 {
@@ -40,5 +42,3 @@ p {
   font-family: "Roboto", sans-serif;
   font-weight: 200;
 }
-
-/* basics */

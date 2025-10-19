@@ -2,7 +2,32 @@
 import heroImage from '../assets/hero1.png';
 ---
 
-<img src={heroImage.src} alt="heroimage">
 
-<h1>PORTFOLIO</h1>
-<p>BJØRK KOEFOED HULTEN . 8 NOV 1996 . MULTIMEDIEDESIGNER </p>
+<section class="hero">
+<img src={heroImage.src} alt="heroimage">
+<h1 class="hero_text">BJØRK HULTEN</h1>
+<p>NYSGERRIG . SANSENDE . DETAJEORIENTERET . MULTIMEDIEDESIGNER </p>
+</section>
+
+
+
+<style>
+  .hero {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Full screen height */
+    overflow: hidden;
+  }
+
+  .hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .hero_text {
+    position: absolute;
+    top: 72%;
+    left: 12%;
+  }
+</style>
