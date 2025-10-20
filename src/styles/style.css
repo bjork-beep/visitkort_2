@@ -51,3 +51,10 @@ li {
   list-style: none;
   line-height: 2rem;
 }
+
+/*** grids ***/
+.grid1_1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding-bottom: 6rem;
+}
