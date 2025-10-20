@@ -28,17 +28,26 @@ h1 {
 }
 
 h2 {
-  font-family: "Roboto", sans-serif;
-}
-
-h3 {
   font-family: "Poiret One";
   color: var(--secondary);
   font-size: 1.5rem;
   font-weight: 100;
 }
 
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
 p {
   font-family: "Roboto", sans-serif;
   font-weight: 200;
+  max-width: 60ch;
+}
+
+li {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  list-style: none;
+  line-height: 2rem;
 }
