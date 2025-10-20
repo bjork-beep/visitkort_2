@@ -2,7 +2,7 @@
 import meImage from '../assets/me.png';
 ---
 
-<div class="grid1_1">
+<section class="grid2_1">
 <div>
 <h2>INTRODUKTION</h2>
 <p>Hej, mit navn er Bjørk, jeg er multimediedesignstuderende og leder efter en praktikplads. Til daglig læser jeg Multimediedesign på EK (fka KEA), og er lige nu i gang med mit 3. semester, som jeg har valgt at læse på Napier University i Edinburgh. 
@@ -16,11 +16,11 @@ Som multimediedesigner vil jeg beskrive mig selv som nysgerrig, sansende og deta
 <li>Tlf: +45 31777616</li>
 <li>LinkedIn</li>
 </div>
-</div>
+</section>
 
 
-<div class="grid1_1">
-<div>
+<section class="grid2_1">
+<div class="img_box">
 <img src={meImage.src} alt="meimage">
 </div>
 
@@ -47,14 +47,18 @@ Som multimediedesigner vil jeg beskrive mig selv som nysgerrig, sansende og deta
     <li>User testing</li>
     <li>SEO</li>
 </div>
-</div>
+</section>
 
 
 
 <style>
 
 img {
-    max-width: 500px;
+    max-width: 400px;
+}
+
+.img_box {
+    padding: 4rem;
 }
 
 .box_1 {

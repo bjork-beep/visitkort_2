@@ -52,9 +52,19 @@ li {
   line-height: 2rem;
 }
 
+/*** basics ***/
+
 /*** grids ***/
 .grid1_1 {
   display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding-bottom: 6rem;
+  margin-left: 8rem; /* ? */
+}
+
+.grid2_1 {
+  display: grid;
   grid-template-columns: 2fr 1fr;
   padding-bottom: 6rem;
+  margin-left: 8rem; /* ? */
 }
